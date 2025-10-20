@@ -53,7 +53,9 @@ function ProdukModal({ show, handleClose, selected, refresh }) {
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
-        <Modal.Title>{"Tambah Produk Baru"}</Modal.Title>
+        <Modal.Title>
+          {selected ? "Edit Produk" : "Tambah Produk Baru"}
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form onSubmit={handleSubmit}>
