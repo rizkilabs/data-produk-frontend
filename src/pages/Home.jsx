@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../api/api";
+import api from "../services/api";
 import { Table, Button, InputGroup, Form } from "react-bootstrap";
 import ProdukModal from "../components/ProdukModal";
 

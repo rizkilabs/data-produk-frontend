@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
-import api from "../api/api";
+import api from "../services/api";
 
 function ProdukModal({ show, handleClose, selected, refresh }) {
   const [produk, setProduk] = useState({
